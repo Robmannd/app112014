@@ -13,17 +13,17 @@
 background-color: transparent;
 border: none;
 text-align: center;
-top: 50px;
+top: 5px;
 }
 
 #iDecision-home img{
-height: 75px;
-width:  75px;
+height: 50px;
+width:  50px;
 }
 #iDecision-home .ui-header h1{
-	font-size: 45px;
+	font-size: 35px;
 	text-shadow:none;
-	margin: 0px 50px 0px 50px
+	margin: 0px 25px 0px 25px
 
 }
 #iDecision-home .ui-content{
@@ -54,7 +54,7 @@ width:  75px;
  	text-shadow:none;
  	background-color: transparent;
  	color: white;
- 	padding: 10px 0px 10px 0px;
+ 	padding: 5px 0px 5px 0px;
  	margin: 0px;
  	font-size: 16px;
 }

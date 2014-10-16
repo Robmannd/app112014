@@ -1,0 +1,72 @@
+#juega-home{
+color: white;
+text-shadow:none;
+font-family: 'Lato', sans-serif;
+
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(top,  #000000 0%, #0aa3a5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#0aa3a5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #000000 0%,#0aa3a5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #000000 0%,#0aa3a5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #000000 0%,#0aa3a5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #000000 0%,#0aa3a5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0aa3a5',GradientType=0 ); /* IE6-9 */
+
+}
+
+#juega-home .ui-header{
+background-color: transparent;
+border: none;
+text-align: center;
+margin:0px 0px 0px 0px;
+}
+
+#juega-home .ui-header h1{
+	font-size:20px;
+	margin:0px 0px 0px 0px;
+	font-weight: bold;
+
+}
+
+#juega-home .ui-content{
+	text-align: center;
+	top: 30px;
+}
+#juega-home .ui-content h6{
+	text-align: center;
+	font-size: 20px;
+	font-weight: lighter;
+
+}
+
+#juega-home .ui-content em {
+	text-align: center;
+	font-weight: lighter; ; 
+	font-size: 16px;
+
+}
+#juega-home .ui-content .content2 {
+
+	font-weight: 50;
+
+}
+
+
+
+
+#juega-home .ui-content button {
+ 	border: none;
+ 	text-shadow:none;
+ 	background-color: #333333;
+ 	color: white;
+}
+
+
+
+#juega-home .ui-footer{
+background-color: transparent;
+border: none;
+text-align: center;
+font-size: 14px;
+}
+
