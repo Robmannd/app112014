@@ -1,0 +1,66 @@
+.ui-page{
+	color: white;
+	text-shadow:none;
+	font-family: 'Lato', sans-serif;
+}
+
+
+#iDecision-home{
+	background-color: #f47660;
+}
+
+#iDecision-home .ui-header{
+background-color: transparent;
+border: none;
+text-align: center;
+top: 50px;
+}
+
+#iDecision-home img{
+height: 75px;
+width:  75px;
+}
+#iDecision-home .ui-header h1{
+	font-size: 45px;
+	text-shadow:none;
+	margin: 0px 50px 0px 50px
+
+}
+#iDecision-home .ui-content{
+	padding: 0px;
+}
+#iDecision-home .content{
+	width: 100%;
+	background-color: #e9705d;
+	
+}
+#iDecision-home .content-2{
+	width: 100%;
+	background-color: #ce6351;
+	
+}
+#iDecision-home .content-3{
+	width: 100%;
+	background-color: #a74f41;
+	
+}
+#iDecision-home .content-4{
+	width: 100%;
+	background-color: #683228;
+	
+}
+#iDecision-home .ui-content button {
+ 	border: none;
+ 	text-shadow:none;
+ 	background-color: transparent;
+ 	color: white;
+ 	padding: 10px 0px 10px 0px;
+ 	margin: 0px;
+ 	font-size: 16px;
+}
+
+#iDecision-home .ui-footer{
+background-color: transparent;
+border: none;
+text-align: center;
+}
