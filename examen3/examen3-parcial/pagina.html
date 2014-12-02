@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<meta charset="UTF-8" />
+
+  <link rel="stylesheet" href="themes/examenn.min.css" />
+  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" /> 
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+  <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+	
+	<script src="js/main.js"></script>
+
+</head>
+
+
+
+
+<body>
+
+<div data-role="page" id="deportes-home" class="deportes">
+
+	<div data-role="header" data-position:"fixed">
+		<h1>ULTRA</h1>
+		<h2>Deportes de última generación</h2>
+		
+	</div><!-- /header -->
+
+
+
+	<div role="main" class="ui-content">
+		
+		<p> 
+			<input type="email" name="correo" id="correo" value="" placeholder="Correo">
+
+			<button class="ui-btn ui-corner-all" id="preparar" >Preparar</button>
+			
+		</p>
+
+
+	</div><!-- /content -->
+
+
+	<div data-role="footer" data-position= "fixed">
+
+		<h4>
+
+		<i class="fa fa-location-arrow"></i> Col. Centro
+
+		</h4>
+		
+
+
+	</div><!-- /footer -->
+</div><!-- /page home-->
+
+
+<div data-role="page" id="deportes-accesorios" class="accesorios">
+
+	<div data-role="header" data-position:"fixed">
+		<a href="#" class="back ui-btn-left ui-btn ui-btn-inline ui-mini"><i class="fa fa-chevron-left"></i></a>
+		<h1>Accesorios</h1>
+		<a href="#" class="next ui-btn-right ui-btn ui-btn-inline ui-mini"><i class="fa fa-chevron-right"></i></a>
+		<h2>Selecciona el accesorio de tu deporte favorito</h2>
+		
+	</div><!-- /header -->
+
+
+
+	<div role="main" class="ui-content">
+
+				<div class="ui-grid-a">
+		
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a" data-accesorios="Balon de boley"> <img src="./img/boley.png"></div></div>
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a" data-accesorios="guante de beis"> <img src="./img/beis.png"> </div></div>
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a" data-accesorios="Balon de fut"> <img src="./img/fut.png"></div></div>
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a" data-accesorios="Bat de beis"> <img src="./img/beis_02.png"> </div></div>
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a" data-accesorios="Arco"> <img src="./img/arco.png"> </div></div>
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a" data-accesorios="palo de golf"> <img src="./img/golf.png"></div></div>
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a" data-accesorios="pino de boliche"> <img src="./img/boliche.png"></div></div>
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a" data-accesorios="Guantes de box"> <img src="./img/box.png"> </div></div>
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a" data-accesorios="Pesas de gym"> <img src="./img/gym.png"> </div></div>
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a" data-accesorios="Raquetas de tenis"> <img src="./img/tenis.png"> </div></div>
+
+    
+		
+		</div><!-- /grid-c -->
+		
+
+	</div><!-- /content -->
+
+
+	<div data-role="footer" data-position= "fixed">
+		
+
+
+	</div><!-- /footer -->
+</div><!-- /page accesorios -->
+
+<div data-role="page" id="deportes-pedidos" class="pedidos">
+
+	<div data-role="header" data-position:"fixed">
+		<a href="#" class="back ui-btn-left ui-btn ui-btn-inline ui-mini"><i class="fa fa-chevron-left"></i></a>
+		<h1>Accesorios Seleccionados</h1>
+		
+	</div><!-- /header -->
+
+
+
+	<div role="main" class="ui-content">
+
+		
+			Correo:
+			<div class="get-correo"> </div>
+
+				<br>
+				
+			Accesorios Favoritos:
+
+				<ul>
+				</ul>
+
+			</div>	
+		</p>
+	</div><!-- /content -->
+
+
+	<div data-role="footer" data-position= "fixed">
+		
+
+
+	</div><!-- /footer -->
+
+
+</div><!-- /page seleccionados los accesorios -->
+
+</body>
+</html>

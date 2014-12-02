@@ -1,0 +1,170 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic);
+
+.ui-page{
+	color: white;
+	text-shadow:none;
+	font-family: 'lato', sans.serif;
+}
+
+.ui-header .ui-btn-left, .ui-header .ui-btn-right{
+	background-color: transparent;
+	color: white;
+	text-shadow:none;
+	border: none;
+	margin-top: 5px;
+	margin-left: 3px;
+	font-size: 10px;
+}
+.ui-header .ui-btn-left i, .ui-header .ui-btn-right{
+	color: white;
+
+}
+.ui-header .ui-btn-left:hover i, .ui-header .ui-btn-right:hover i,{
+	background: transparent;
+	color: #4d4d4d;
+}
+.ui-header .ui-btn-left i:active, .ui-header .ui-btn-right i:active{
+	background: transparent;	
+	color: white;
+}
+
+
+.ui-bar.active img {
+	opacity: 1;
+}
+
+#deportes-home{
+	background-image: url(../img/fondo.png);
+	background-size: cover;
+}
+.ui-page .ui-header{
+background-color: transparent;
+border: none;
+}
+
+#deportes-home .ui-header h1{
+	font-size: 46px;
+	font-weight: 300;
+	margin:0 10%;
+	padding: 0;
+	text-shadow:none;
+	color: white;
+	text-align: center;
+}
+#deportes-home .ui-header h2{
+	white-space: normal;
+	font-size: 18px;
+	margin:0 10%;
+	padding: 0;
+}
+
+#deportes-accesorios .ui-header h1{
+	margin: 0 10%;
+}
+
+#deportes-accesorios .ui-header h2{
+	white-space: normal;
+	font-size: 15px;
+}
+
+.ui-page .ui-footer{
+	background-color: transparent;
+	border: none;
+	font-size: 18px;
+}
+ #deportes-home .ui-content{
+ 	padding-top: 35%;
+ }
+
+ #deportes-home .ui-content .ui-input-text{
+ 	box-shadow: none;
+ 	border: none;
+ 	background: white;
+ 	text-shadow:none;
+ 	border-radius: 2px;
+ 	padding: 10px 10px;
+
+ }
+#deportes-home .ui-content button {
+	box-shadow: none;
+ 	border: none;
+ 	text-shadow:none;
+ 	border-radius: 2px;
+ 	padding: 10px 10px;
+
+ 	border: 2px solid white;
+ 	color: white;
+ 	background-color: transparent;
+ 	font-size: 25px;
+ 	font-weight: lighter;
+}
+
+.accesorios{
+	background-image: url(../img/fondo.png);
+	background-size: cover;
+}
+.accesorios .ui-header h1{
+	font-size: 36px;
+	font-weight: 300;
+	margin:0 10%;
+	padding: 0;
+	text-shadow:none;
+	color: white;
+	text-align: center;
+}
+.accesorios .ui-header h2{
+	white-space: normal;
+	font-size: 12px;
+	margin:0;
+	padding: 0;
+}
+#deportes-accesorios .ui-content{
+	position: center;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+#deportes-accesorios .ui-content img {
+
+	width: 65px;
+	height: 65px;
+	background-size: 80%;
+	text-align: center;
+	float: left;
+	background-repeat: no-repeat;
+	display: table;
+	margin: 5px 25px 5px 35px;
+	opacity: .6;
+}
+
+
+.pedidos{
+	background-image: url(../img/fondo.png);
+	background-size: cover;
+}
+#deportes-pedidos .ui-header h1{
+	font-size: 18px;
+	font-weight: 300;
+	margin: 0px;
+	text-shadow:none;
+	color: white;
+	text-align: center;
+}
+
+ #deportes-pedidos .ui-content .get-correo{
+ 	height: 35px;
+ 	box-shadow: none;
+ 	border: none;
+ 	text-shadow:none;
+ 	border-radius: 2px;
+
+ }
+  #deportes-pedidos .ui-content .pedido{
+ 	height: 90px;
+ 	box-shadow: none;
+ 	border: none;
+ 	background: white;
+ 	text-shadow:none;
+ 	border-radius: 2px;
+
+ }
+

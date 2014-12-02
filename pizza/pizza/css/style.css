@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic);
+
 .ui-page{
 	color: white;
 	text-shadow:none;
@@ -9,9 +11,31 @@
 	background-image: url(../img/fonfo-a.jpg);
 	background-size: cover;
 }
-#pizza-home .ui-header{
+.ui-page .ui-header{
 background-color: transparent;
 border: none;
+}
+
+.ui-header .ui-btn-left, .ui-header .ui-btn-right{
+	background-color: transparent;
+	color: white;
+	text-shadow:none;
+	border: none;
+	margin-top: 9px;
+	margin-left: 14px;
+	font-size: 20px;
+}
+.ui-header .ui-btn-left i, .ui-header .ui-btn-right{
+	color: white;
+
+}
+.ui-header .ui-btn-left:hover i, .ui-header .ui-btn-right:hover i,{
+	background: transparent;
+	color: #4d4d4d;
+}
+.ui-header .ui-btn-left i:active, .ui-header .ui-btn-right i:active{
+	background: transparent;
+	color: white;
 }
 
 #pizza-home .ui-header h1{
@@ -26,8 +50,17 @@ border: none;
 	color: white;
 }
 
-#pizza-home .ui-footer{
-background-color: transparent;
+#pizza-ingredientes .ui-header h1{
+	margin: 0 10%;
+}
+
+#pizza-ingredientes .ui-header h2{
+	white-space: normal;
+	font-size: 15px;
+}
+
+.ui-page .ui-footer{
+background-color: white;
 border: none;
 }
 
@@ -62,4 +95,150 @@ border: none;
  	background-color: transparent;
  	font-size: 25px;
  	font-weight: lighter;
+}
+
+.ricapizza{
+	background-image: url(../img/fondo2.jpg);
+	background-size: cover;
+}
+
+.ricapizza .ui-header h1{
+	font-size: 40px;
+	font-weight: 300;
+	color: white;
+	margin: 0 20%;
+	padding: 0px;
+	text-shadow:none;
+	padding-bottom: 0px;
+	font-style: italic;
+}
+
+.ricapizza .ui-header h2{
+	font-size: 19px;
+	font-weight: 300;
+	color: white;
+	margin: 0 10%;
+	text-shadow:none;
+	padding: 0px;
+	padding-bottom: 0px;
+	font-style: italic;
+
+}
+
+.ricapizza .ui-content{
+	padding: 0;
+}
+
+#pizza-masa .masa-wrap{
+
+	width: 65%;
+	height: 190px;
+	background-image: url(../img/fondo_masa.png);
+	margin: 0 auto;
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	display: table;
+
+}
+
+#pizza-masa .masa-wrap .masa-texto-wrap{
+	display: table-cell;
+	vertical-align: middle;
+}
+#pizza-masa .masa-wrap .masa-texto-wrap .masa-texto-container{
+	width: 80%;
+	margin:0 auto;
+
+}
+
+#pizza-masa  .masa-texto-container h3{
+	color: #322113;
+	margin: 6px;
+}
+
+#pizza-masa .masa-texto-container span{
+	color: #322113;
+	font-weight: 300;
+}
+#pizza-ingredientes .ui-content {
+
+	padding: 0 15px;
+
+}
+
+#pizza-ingredientes .ui-bar {
+	background-color: transparent;
+	border: none;
+	text-align: center;
+	font-weight: 300;
+	height: 70%;
+}
+
+#pizza-ingredientes .ui-bar img{
+	height: 76px;
+	display: block;
+	margin: 0 auto;
+	opacity: .7;
+}
+#pizza-ingredientes .ui-bar img:hover {
+	opacity: 1;
+}
+
+#pizza-pedido .wrap-pedido {
+	margin: 0 12%;
+	padding: 20px;
+	color:black;
+	font-weight: 300;
+	margin-top: 15px;
+
+	box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.80);
+
+
+
+	background: #c6c3b1; /* Old browsers */
+background: -moz-linear-gradient(top,  #c6c3b1 0%, #fbf7ec 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c6c3b1), color-stop(100%,#fbf7ec)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #c6c3b1 0%,#fbf7ec 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #c6c3b1 0%,#fbf7ec 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #c6c3b1 0%,#fbf7ec 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #c6c3b1 0%,#fbf7ec 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c3b1', endColorstr='#fbf7ec',GradientType=0 ); /* IE6-9 */
+
+}
+#pizza-pedido .wrap-pedido h4{
+	font-weight: 300;
+	font-size: 16px;
+	margin: 10px 0;
+	border-bottom: 1px solid #8e8e8e;
+	padding-bottom: 10px;
+	
+}
+#pizza-pedido .wrap-pedido th{
+	font-weight: 300;
+	font-size: 16px;
+	text-align: left;
+}
+
+#pizza-pedido .wrap-pedido .total{
+	border-bottom: 1px solid #8e8e8e;
+	padding-bottom: 10px;
+
+}
+#pizza-pedido .wrap-pedido .orden{
+	font-weight: 400;
+	
+}
+
+#pizza-pedido .wrap-pedido a {
+	border: 1px solid #4d4d4d;
+	padding-top: 7px 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #4d4d4d;
+	margin: 0 auto;
+	display:block;
+	border-radius: 3px;
+	margin-top: 15px;
 }
